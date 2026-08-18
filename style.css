@@ -444,6 +444,9 @@ nav{
 #banner .button .btn{
     margin-bottom: 10px;
 }
+#banner .banner_image img{
+    display: none;
+}
 
     /* +++++++++++++++ Navbar Section Design End +++++++++++++++ */
 
@@ -516,9 +519,6 @@ footer .footer_container{
 }
 footer .footer_container h2{
     font-size: 30px;
-}
-footer .footer_container h2{
-
 }
 footer .footer_container .form input[type="text"], footer .footer_container .form input[type="email"], footer .footer_container .form textarea{
     width: 100%;
