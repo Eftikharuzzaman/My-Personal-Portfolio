@@ -413,7 +413,7 @@ footer .footer_container .form input[type="submit"]{
     display: none !important;
 } */
 
-@media screen and (min-width: 380px) and (max-width:576px) {
+@media screen and (max-width:576px) {
 
 header{
     padding-top: 50px;
@@ -524,6 +524,86 @@ footer .footer_container .form input[type="text"], footer .footer_container .for
     width: 100%;
 }
  /* +++++++++++++++ Footer Section Responsive End +++++++++++++++ */
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:380px){
+
+nav .menu li a{
+    font-size: 16px;
+}
+nav .menu li a{
+    font-size: 16px;
+}
+nav .menu li .btn a {
+    font-size: 15px;
+}
+
+#banner .banner_content h2 {
+    font-size: 35px;
+    }
+
+#banner .banner_content h1{
+    font-size: 35px;
+    }
+
+#skills .skills_container {
+        width: 90%;
+    }
+
+#skills .skills_container{
+    text-align: center;
+}
+
+#resume .resume_container .education{
+    text-align: center;
+}
+
+#resume .resume_container .education .section_title .resume_card .card_title{
+    font-size: 20px;
+}
+#resume .resume_container .education .section_title .resume_card .card_info{
+    font-size: 15px;
+}
+#resume .resume_container .education .section_title .resume_card .card_description{
+    font-size: 13px;
+}
+
+#resume .resume_container .experience{
+    text-align: center;
+}
+
+#resume .resume_container .experience .section_title .resume_card .card_title{
+    font-size: 20px;
+}
+#resume .resume_container .experience .section_title .resume_card .card_info{
+    font-size: 15px;
+}
+#resume .resume_container .experience .section_title .resume_card .card_description{
+    font-size: 13px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
