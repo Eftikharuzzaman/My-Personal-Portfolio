@@ -413,7 +413,7 @@ footer .footer_container .form input[type="submit"]{
     display: none !important;
 } */
 
-@media screen and (max-width:576px) {
+@media screen and (min-width: 380px) and (max-width:576px) {
 
 header{
     padding-top: 50px;
@@ -526,5 +526,39 @@ footer .footer_container .form input[type="text"], footer .footer_container .for
  /* +++++++++++++++ Footer Section Responsive End +++++++++++++++ */
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==================> Responsive Design End Here <================== */
