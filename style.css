@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==================> shared Style Start <================== */
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Open Sans;
+}
+.logo_color{
+    color: #FD6E0A;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+/* ==================> shared Style End <================== */
+
+/* ==================> Header Section style Start <================== */
+
+header{
+    /* background-color: ; */
+    padding-top: 50px;
+    background: url(images/developer.png), url(images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px -10px, bottom right;
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid rgb(228, 15, 7); */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    gap: 54px;
+    align-items: center;
+}
+
+nav .menu li{
+    list-style: none;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: regular;
+    font-family: Open Sans;
+}
+
+nav .menu li .btn a{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* ==================> Banner Section Style Start <================== */
+
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 45px 38px 0 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#banner .banner_content h2{
+    font-size: 45px;
+    font-family: Open Sans;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner_content{
+    max-width: 585px;
+}
+
+#banner .banner_content h1{
+    font-size: 85px;
+    font-family: Open Sans;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#banner .banner_content p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#banner .banner_content .button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Open Sans;
+    color: #FFF8F3;
+}
+
+#banner .banner_image img{
+    max-width: 584px;
+    vertical-align: middle;
+}
+
+/* ==================> Header Section style End <================== */
+
+/* ==================> About Section Design Start <================== */
+
+#about{
+    padding: 130px 230px 130px 230px;
+}
+#about .about_container{
+    width: 1140px;
+    /* height: 550px; */
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    text-align: center;
+    padding: 131px 157px;
+}
+#about .about_container .dection_heading{
+    max-width: 827px;
+    text-align: center;
+}
+#about .about_container .dection_heading h2{
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+#about .about_container .dection_heading p{
+    margin-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+#about .about_container .about_info{
+    max-width: 782px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 0 22.5px;
+}
+#about .about_container .about_info .info_card p{
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #747d8c;
+}
+#about .about_container .about_info .info_card h4{
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: bold;
+    color: #57606f;
+}
+
+/* ==================> About Section Design End <================== */
+
+
+/* ==================> Skill Card Section Design Start <================== */
+
+#skills .skills_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#skills .skills_container .skills-heading{
+    width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+#skills .skills_container .skills-heading h2{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#skills .skills_container .skills-heading p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+#skills .skills_container .skills_box{
+    display: flex;
+    gap: 24px;
+    padding: 30px 30px;
+}
+#skills .skills_container .skills_box .skills_card{
+    width: 267px;
+    padding: 30px 30px;
+    box-shadow: 0 6px 50px 0 #00000073;
+    /* border: 1px solid rgb(211, 206, 206); */
+    /* background-color: #faf8f8; */
+}
+#skills .skills_container .skills_box .skills_card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+#skills .skills_container .skills_box .skills_card h3{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#skills .skills_container .skills_box .skills_card p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ==================> Skill Card Section Design End <================== */
+
+/* ==================> Resume Section Design Start <================== */
+
+
+#resume{
+    margin-top: 130px;
+
+}
+#resume .section_heading{
+    text-align: center;
+}
+#resume .section_heading h2{
+    font-size: 35px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 113px;
+}
+#resume .resume_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+/* Education Section Design Start */
+#resume .resume_container .education{
+    width: 558px;
+}
+#resume .resume_container .education .section_title h2{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#resume .resume_container .education .section_title .resume_card{
+    max-width: 511px;
+}
+#resume .resume_container .education .section_title .resume_card .card_title{
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+#resume .resume_container .education .section_title .resume_card .card_info{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#resume .resume_container .education .section_title .resume_card .card_description{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#resume .resume_container .education .section_title hr{
+    margin-bottom: 30px;
+}
+/* Education Section Design End */
+
+
+/* Experience Section Design Start */
+#resume .resume_container .experience{
+    width: 558px;
+}
+#resume .resume_container .experience .section_title h2{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#resume .resume_container .experience .section_title .resume_card{
+    max-width: 511px;
+}
+#resume .resume_container .experience .section_title .resume_card .card_title{
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+#resume .resume_container .experience .section_title .resume_card .card_info{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#resume .resume_container .experience .section_title .resume_card .card_description{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+#resume .resume_container .experience .section_title hr{
+    margin-bottom: 30px;
+}
+/* Experience Section Design End */
+
+#resume .button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+#resume .button{
+    border: none;
+}
+#resume .button a{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* ==================> Resume Section Design End <================== */
+
+/* ==================> Footer Section Design Start <================== */
+
+footer{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    /* padding-top: 130px; */
+}
+footer .footer_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+    padding-top: 130px;
+}
+footer .footer_container .social{
+    max-width: 562px;
+}
+footer .footer_container h2{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 25px;
+}
+footer .footer_container p{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+footer .footer_container .social .footer_image a{
+    margin-right: 24px;
+}
+footer .footer_container .form input[type="text"], 
+footer .footer_container .form input[type="email"],
+footer .footer_container .form textarea
+{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+footer .footer_container .form input[type="submit"]{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 130px;
+}
+/* ==================> Footer Section Design End <================== */
+
+/* ==================> Responsive Design Start Form Here <================== */
+
+/* .hide{
+    display: none !important;
+} */
+
+@media screen and (max-width:576px) {
+
+header{
+    padding-top: 50px;
+    background: url(images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+    /* +++++++++++++++ Navbar Section Design Start +++++++++++++++ */
+
+nav{
+    width: 95%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#banner{
+    margin: 40px 10px 15px 10px;
+    flex-direction: column;
+    text-align: center;
+}
+#banner .banner_content h2{
+    font-size: 35px;
+}
+#banner .banner_content h1 {
+    font-size: 45px;
+}
+#banner .button .btn{
+    margin-bottom: 10px;
+}
+
+    /* +++++++++++++++ Navbar Section Design End +++++++++++++++ */
+
+    /* +++++++++++++++ About Section Responsive Start +++++++++++++++ */
+
+#about{
+    padding: 30px 0px 60px 0px;
+}
+#about .about_container .dection_heading h2{
+    font-size: 30px;
+}
+#about .about_container{
+    padding: 20px;
+    width: 95%;
+}
+#about .about_container .about_info{
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* +++++++++++++++ About Section Responsive End +++++++++++++++ */
+
+/* +++++++++++++++ Skill Section Responsive Start +++++++++++++++ */
+
+.skills_container {
+    width: 95%;
+}
+#skills .skills_container .skills-heading {
+    width: 100%;
+}
+#skills .skills_container .skills-heading h2 {
+    font-size: 30px;
+}
+#skills .skills_container .skills_box {
+    flex-direction: column;
+}
+#skills .skills_container .skills_box .skills_card {
+    width: 100%;
+}
+
+ /* +++++++++++++++ Skill Section Responsive End +++++++++++++++ */
+
+/* +++++++++++++++ Resume Section Responsive Start +++++++++++++++ */
+
+#resume{
+    margin-top: 80px;
+}
+#resume .resume_container{
+    flex-direction: column;
+    width: 95%;
+}
+#resume .section_heading h2{
+    font-size: 30px;
+    margin-bottom: 65px;
+}
+#resume .resume_container .education{
+    width: 100%;
+}
+#resume .resume_container .experience{
+    width: 100%;
+}
+
+/* +++++++++++++++ Resume Section Responsive End +++++++++++++++ */
+
+ /* +++++++++++++++ Footer Section Responsive Start +++++++++++++++ */
+footer .footer_container{
+    width: 95%;
+    flex-direction: column;
+    gap: 60px;
+}
+footer .footer_container h2{
+    font-size: 30px;
+}
+footer .footer_container h2{
+
+}
+footer .footer_container .form input[type="text"], footer .footer_container .form input[type="email"], footer .footer_container .form textarea{
+    width: 100%;
+}
+ /* +++++++++++++++ Footer Section Responsive End +++++++++++++++ */
+
+}
+
+/* ==================> Responsive Design End Here <================== */
